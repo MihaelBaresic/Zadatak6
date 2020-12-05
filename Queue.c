@@ -39,7 +39,7 @@ int main() {
 		{
 		case 1:
 			Last = findLast(&head);
-			random = rand(10) % 101;
+			random = 10 + rand() % 91;
 			K = createEl(random);
 			Push(Last,K);
 			printList(&head);
