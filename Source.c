@@ -1,9 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 //LIFO dodavanje na poc. skidanje s poc.
 //FIFO last in head next out
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
+
 
 typedef struct _Stog* Position;
 struct _Stog;
@@ -21,12 +24,18 @@ int main() {
 	Stog head;
 	head.next = NULL;
 	Position K = NULL;
+	srand(time(NULL));
+	int random;
+	random = rand(10) % 101;
 
-	K = createEl(1);
+
+	K = createEl(random);
 	insertStart(&head, K);
-	K = createEl(2);
+	random = rand(10) % 101;
+	K = createEl(random);
 	insertStart(&head, K);
-	K = createEl(3);
+	random = rand(10) % 101;
+	K = createEl(random);
 	insertStart(&head, K);
 
 	printf("\n\tList content:");

@@ -1,0 +1,6 @@
+﻿  Source.c
+C:\Users\Miho\Desktop\repos\StrukturePodataka\Zad6\Source.c(26,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Miho\Desktop\repos\StrukturePodataka\Zad6\Source.c(28,18): warning C4087: 'rand': declared with 'void' parameter list
+C:\Users\Miho\Desktop\repos\StrukturePodataka\Zad6\Source.c(33,18): warning C4087: 'rand': declared with 'void' parameter list
+C:\Users\Miho\Desktop\repos\StrukturePodataka\Zad6\Source.c(36,18): warning C4087: 'rand': declared with 'void' parameter list
+  Zad6.vcxproj -> C:\Users\Miho\Desktop\repos\StrukturePodataka\Zad6\Debug\Zad6.exe
